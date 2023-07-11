@@ -1,0 +1,31 @@
+2023-06-30 16:08:40.111 [info] 
+
+
+
+
+2023-06-30 16:08:40.138 [info] Extension host agent started.
+2023-06-30 16:08:40.502 [info] [127.0.0.1][510e4d3f][ManagementConnection] New connection established.
+2023-06-30 16:08:40.667 [info] [127.0.0.1][d258db78][ExtensionHostConnection] New connection established.
+2023-06-30 16:08:40.864 [info] [127.0.0.1][d258db78][ExtensionHostConnection] <11131> Launched Extension Host Process.
+2023-06-30 16:08:43.005 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-30 16:13:40.139 [info] New EH opened, aborting shutdown
+2023-06-30 17:04:31.170 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-06-30 17:04:31.171 [info] [127.0.0.1][510e4d3f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2023-06-30 20:04:39.478 [info] [127.0.0.1][510e4d3f][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2023-06-30 20:04:40.512 [info] [127.0.0.1][d258db78][ExtensionHostConnection] <11131> Extension Host Process exited with code: 0, signal: null.
+2023-06-30 20:04:40.513 [info] Last EH closed, waiting before shutting down
+2023-06-30 20:09:40.514 [info] Last EH closed, shutting down

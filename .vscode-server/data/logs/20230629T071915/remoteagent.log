@@ -1,0 +1,105 @@
+2023-06-29 07:19:15.107 [info] 
+
+
+
+
+2023-06-29 07:19:15.133 [info] Extension host agent started.
+2023-06-29 07:19:15.564 [error] [127.0.0.1][d5537fa9][ManagementConnection] Unknown reconnection token (never seen).
+2023-06-29 07:19:16.100 [error] [127.0.0.1][ab7fc59c][ExtensionHostConnection] Unknown reconnection token (never seen).
+2023-06-29 07:22:26.356 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-29 07:22:26.356 [info] Cancelling previous shutdown timeout
+2023-06-29 07:22:26.770 [info] [127.0.0.1][43b0e20d][ManagementConnection] New connection established.
+2023-06-29 07:22:27.035 [info] [127.0.0.1][35fddf73][ExtensionHostConnection] New connection established.
+2023-06-29 07:22:27.103 [info] [127.0.0.1][35fddf73][ExtensionHostConnection] <95200> Launched Extension Host Process.
+2023-06-29 07:22:29.029 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-29 07:22:31.618 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateIcon (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2677)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-29 07:22:31.618 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-29 07:27:26.357 [info] New EH opened, aborting shutdown
+2023-06-29 08:43:10.679 [info] [127.0.0.1][35fddf73][ExtensionHostConnection] The client has reconnected.
+2023-06-29 11:13:19.101 [info] [127.0.0.1][4b731066][ManagementConnection] New connection established.
+2023-06-29 11:13:19.250 [info] [127.0.0.1][4b731066][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-29 11:13:26.622 [info] [127.0.0.1][b0919169][ManagementConnection] New connection established.
+2023-06-29 11:13:26.902 [info] [127.0.0.1][bdb80dc3][ExtensionHostConnection] New connection established.
+2023-06-29 11:13:26.955 [info] [127.0.0.1][bdb80dc3][ExtensionHostConnection] <96966> Launched Extension Host Process.
+2023-06-29 11:13:29.155 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-29 11:14:03.354 [info] [127.0.0.1][b0919169][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-29 11:14:03.367 [info] [127.0.0.1][bdb80dc3][ExtensionHostConnection] <96966> Extension Host Process exited with code: 0, signal: null.
+2023-06-29 11:14:12.360 [info] [127.0.0.1][8efb9f42][ManagementConnection] New connection established.
+2023-06-29 11:14:12.594 [info] [127.0.0.1][7ca5656f][ExtensionHostConnection] New connection established.
+2023-06-29 11:14:12.601 [info] [127.0.0.1][7ca5656f][ExtensionHostConnection] <97127> Launched Extension Host Process.
+2023-06-29 11:14:14.901 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-29 11:14:29.641 [info] [127.0.0.1][8efb9f42][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-29 11:14:29.655 [info] [127.0.0.1][7ca5656f][ExtensionHostConnection] <97127> Extension Host Process exited with code: 0, signal: null.
+2023-06-29 11:14:37.536 [info] [127.0.0.1][91117a30][ManagementConnection] New connection established.
+2023-06-29 11:14:37.746 [info] [127.0.0.1][ee5d1926][ExtensionHostConnection] New connection established.
+2023-06-29 11:14:37.759 [info] [127.0.0.1][ee5d1926][ExtensionHostConnection] <97288> Launched Extension Host Process.
+2023-06-29 11:18:19.239 [info] [127.0.0.1][35fddf73][ExtensionHostConnection] <95200> Extension Host Process exited with code: 0, signal: null.
+2023-06-29 12:23:23.237 [info] [127.0.0.1][d986c7f2][ManagementConnection] New connection established.
+2023-06-29 12:23:23.515 [info] [127.0.0.1][8858455c][ExtensionHostConnection] New connection established.
+2023-06-29 12:23:23.526 [info] [127.0.0.1][8858455c][ExtensionHostConnection] <98971> Launched Extension Host Process.
+2023-06-29 12:28:23.545 [info] [127.0.0.1][ee5d1926][ExtensionHostConnection] <97288> Extension Host Process exited with code: 0, signal: null.

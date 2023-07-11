@@ -1,0 +1,17 @@
+2023-06-29 11:14:39.827 [info] Extension host with pid 97288 started
+2023-06-29 11:14:39.830 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/94e6ae73b6785756957529b0116acdc7/vscode.lock'
+2023-06-29 11:14:39.834 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/94e6ae73b6785756957529b0116acdc7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-06-29 11:14:39.839 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/94e6ae73b6785756957529b0116acdc7/vscode.lock': The lock does not look stale, elapsed: 71 ms, giving up.
+2023-06-29 11:14:39.855 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/94e6ae73b6785756957529b0116acdc7-1/vscode.lock': Lock acquired.
+2023-06-29 11:14:40.506 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-29 11:14:40.508 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-06-29 11:14:41.307 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-29 11:14:41.321 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-06-29 11:14:41.553 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-29 11:14:41.566 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-29 11:14:43.012 [info] Eager extensions activated
+2023-06-29 11:14:43.013 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-29 11:14:43.014 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-29 12:28:23.513 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-06-29 12:28:23.513 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/94e6ae73b6785756957529b0116acdc7-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-29 12:28:23.528 [info] Extension host with pid 97288 exiting with code 0

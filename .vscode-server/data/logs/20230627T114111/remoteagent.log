@@ -1,0 +1,60 @@
+2023-06-27 11:41:11.305 [info] 
+
+
+
+
+2023-06-27 11:41:11.330 [info] Extension host agent started.
+2023-06-27 11:41:11.780 [info] [127.0.0.1][b651e87a][ManagementConnection] New connection established.
+2023-06-27 11:41:11.951 [info] [127.0.0.1][7b546868][ExtensionHostConnection] New connection established.
+2023-06-27 11:41:12.112 [info] [127.0.0.1][7b546868][ExtensionHostConnection] <16118> Launched Extension Host Process.
+2023-06-27 11:41:38.791 [info] [127.0.0.1][b651e87a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-27 11:41:38.804 [info] [127.0.0.1][7b546868][ExtensionHostConnection] <16118> Extension Host Process exited with code: 0, signal: null.
+2023-06-27 11:41:38.804 [info] Cancelling previous shutdown timeout
+2023-06-27 11:41:38.805 [info] Last EH closed, waiting before shutting down
+2023-06-27 11:42:08.036 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-27 11:42:08.036 [info] Cancelling previous shutdown timeout
+2023-06-27 11:42:08.889 [info] [127.0.0.1][3c7e4847][ManagementConnection] New connection established.
+2023-06-27 11:42:09.069 [info] [127.0.0.1][9a70ea25][ExtensionHostConnection] New connection established.
+2023-06-27 11:42:09.084 [info] [127.0.0.1][9a70ea25][ExtensionHostConnection] <16281> Launched Extension Host Process.
+2023-06-27 11:42:11.365 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-27 11:42:34.100 [info] [127.0.0.1][3c7e4847][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-27 11:42:34.108 [info] [127.0.0.1][9a70ea25][ExtensionHostConnection] <16281> Extension Host Process exited with code: 0, signal: null.
+2023-06-27 11:42:34.108 [info] Cancelling previous shutdown timeout
+2023-06-27 11:42:34.108 [info] Last EH closed, waiting before shutting down
+2023-06-27 11:43:27.601 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-27 11:43:27.601 [info] Cancelling previous shutdown timeout
+2023-06-27 11:43:28.070 [info] [127.0.0.1][e04c43bb][ManagementConnection] New connection established.
+2023-06-27 11:43:28.226 [info] [127.0.0.1][c77a8bad][ExtensionHostConnection] New connection established.
+2023-06-27 11:43:28.238 [info] [127.0.0.1][c77a8bad][ExtensionHostConnection] <16500> Launched Extension Host Process.
+2023-06-27 11:43:30.147 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/azureuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-27 11:48:27.603 [info] New EH opened, aborting shutdown
+2023-06-27 13:18:11.170 [info] [127.0.0.1][c77a8bad][ExtensionHostConnection] The client has reconnected.
+2023-06-27 16:18:22.970 [info] [127.0.0.1][c77a8bad][ExtensionHostConnection] <16500> Extension Host Process exited with code: 0, signal: null.
+2023-06-27 16:18:22.970 [info] Last EH closed, waiting before shutting down
+2023-06-27 16:23:22.971 [info] Last EH closed, shutting down

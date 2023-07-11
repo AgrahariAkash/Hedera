@@ -1,0 +1,12 @@
+2023-06-28 12:30:58.088 [info] Extension host with pid 87824 started
+2023-06-28 12:30:58.106 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/3684cc3ed8e0fe8798c89076dd3d99d1/vscode.lock': Lock acquired.
+2023-06-28 12:30:58.344 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-28 12:30:58.770 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-28 12:30:58.887 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-28 12:30:58.887 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-28 12:30:59.383 [info] Eager extensions activated
+2023-06-28 12:30:59.383 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-28 12:30:59.383 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-28 12:31:25.748 [info] Extension host terminating: received terminate message from renderer
+2023-06-28 12:31:25.749 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/3684cc3ed8e0fe8798c89076dd3d99d1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-28 12:31:25.756 [info] Extension host with pid 87824 exiting with code 0

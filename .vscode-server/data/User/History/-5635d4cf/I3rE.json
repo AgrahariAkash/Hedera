@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.accessibilitySupport": "off",
+    "solidity.telemetry": true,
+    "remote.SSH.remotePlatform": {
+        "20.204.49.14": "linux"
+    }
+}

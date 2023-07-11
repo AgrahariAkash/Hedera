@@ -1,0 +1,3 @@
+2023-06-28 12:27:00.296 [info] Extension host with pid 86965 started
+2023-06-28 12:32:51.043 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-06-28 12:32:51.045 [info] Extension host with pid 86965 exiting with code 0
